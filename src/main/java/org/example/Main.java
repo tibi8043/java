@@ -72,6 +72,6 @@ public class Main {
         myThread.setDaemon(true);
         System.out.println(myThread.getName()+" thread is a daemon therad? :"+myThread.isDaemon());
 
-        
+
     }
 }
