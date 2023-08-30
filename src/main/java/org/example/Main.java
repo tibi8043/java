@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Set;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -36,10 +34,16 @@ public class Main {
             }
         }*/
 
-        //Creating thread
+        //Creating threads
         System.out.println("\n Creating threads");
 
+        //Creating from Thread class
         MyThread myThread = new MyThread();
+
+        //Implement Runnable interface and pass it as an argument for Threads.
+        MyRunnable myRunnable = new MyRunnable();
+        Thread myThread2 = new Thread(myRunnable);
+
 
         //set name of myThread thread
         myThread.setName("2nd thread");
