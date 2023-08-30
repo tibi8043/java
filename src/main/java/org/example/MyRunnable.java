@@ -1,7 +1,7 @@
 package org.example;
 
 //Another way to create a thread
-public class MyRunable implements Runnable{
+public class MyRunnable implements Runnable{
 
     @Override
     public void run(){

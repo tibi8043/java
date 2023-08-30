@@ -7,8 +7,8 @@ public class Main {
 
         MyThread thread1 = new MyThread();
 
-        MyRunable runable1 = new MyRunable();
-        Thread thread2 = new Thread(runable1);
+        MyRunnable runnable1 = new MyRunnable();
+        Thread thread2 = new Thread(runnable1);
 
         //
 
