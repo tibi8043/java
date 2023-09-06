@@ -1,6 +1,5 @@
 # ide files
-.idea
-
+idea/
 # build files
 target/
 
