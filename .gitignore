@@ -2,7 +2,7 @@
 .idea
 
 # build files
-target/
+target/*
 
 # pom
 pom.xml
